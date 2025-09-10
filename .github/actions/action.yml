@@ -1,0 +1,12 @@
+name: deploy
+author: j1roscope
+description: deploy
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs
